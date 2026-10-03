@@ -93,3 +93,11 @@ A value representing an invalid number should never equal any value, including i
 Before executing your code, JavaScript makes two passes.
 Phase 1 - Memory Creation Phase
 Phase 2 - Execution Phase
+
+19. 
+Math.floor(4.7)	4	Always rounds down
+Math.ceil(4.7)	5	Always rounds up
+Math.round(4.7)	5	Rounds to nearest (4.5+ rounds up)
+Math.trunc(4.7)	4	Just removes decimal (no rounding logic)
+
+20. 

@@ -675,7 +675,7 @@ for(let i=1;i<=20;i++){
   }
   console.log('leader',leader.reverse());
 
-  // Am strong Number
+  // Am strong Number ** is the exponentiation operator in JavaScript. It raises a number to a power.
   const nums = 9474;
 
   const digits = nums.toString().split('');
@@ -689,7 +689,7 @@ for(let i=1;i<=20;i++){
     console.log('sum',sum);
   }
   
-  console.log(sum === num ? "Armstrong Number" : "Not Armstrong Number");
+  console.log(sum === nums ? "Armstrong Number" : "Not Armstrong Number");
 
 
   // find the smallest and largest word in the stri
@@ -871,3 +871,23 @@ for(let i=1;i<=20;i++){
   }
 
   console.log(reversedSentence);
+
+  const arr11 = [10, 20, 30, 40, 50, 60, 70];
+  const index = 3;
+
+  const result11 = [];
+  let resultIndex = 0;
+
+  // Start from given index
+  for (let i = index; i < arr11.length; i++) {
+    result11[resultIndex] = arr11[i];
+      resultIndex++;
+  }
+
+  // Start from beginning
+  for (let i = 0; i < index; i++) {
+    result11[resultIndex] = arr11[i];
+      resultIndex++;
+  }
+
+  console.log(result11);

@@ -1,0 +1,12 @@
+Pending Topics:-
+Micro services
+REST API Vs RESTful APIs
+RXjs
+Ngrx
+Practice NestJS sample API with business logic
+Practice NestJS sample API with business logic
+Basic HTTP status codes
+What are the major diff about NestJS Vs NodeJS. why am asking i know NEstJS with hands on training also there
+What is Git
+Gen API
+LLM
